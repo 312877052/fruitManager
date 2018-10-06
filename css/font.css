@@ -1,0 +1,7 @@
+@font-face{
+     font-family: 'Aideep'; 
+     src: url('../font/Aideep.eot');
+     src:url('../font/Aideep.woff') format('woff'),
+         url('../font/Aideep.ttf') format('truetype'),
+         url('../font/Aideep.svg') format('svg');
+}

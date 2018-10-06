@@ -1,2 +1,0 @@
-# fruitManager
-fruitManager readme
