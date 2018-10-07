@@ -49,3 +49,18 @@
 	padding:8px 0px;
 	border-radius: 5px;
 }
+
+#addNewTreeTable td{
+	padding:10px 20px;
+}
+
+.Btn{
+	background: rgb(64,64,64);
+	border: 0px;
+	color: white;
+	width: 60px;
+	height: 40px;
+	font-size: 19px;
+	font: "微软雅黑";
+	border-radius: 5px;
+}
