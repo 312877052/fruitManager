@@ -64,3 +64,15 @@
 	font: "微软雅黑";
 	border-radius: 5px;
 }
+
+.fruitSort td{
+	padding:10px 20px;
+}
+
+.userMessageTable{
+	margin: 30px;
+}
+
+.userMessageTable td{
+	padding: 5px;
+}

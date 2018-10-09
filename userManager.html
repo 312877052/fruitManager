@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>用户管理</title>
@@ -7,12 +8,13 @@
 		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<link rel="stylesheet" href="css/font.css" />
+		<link rel="stylesheet" href="css/home.css" />
 	</head>
 
 	<body>
 		<div>
 			<div class="row visible-on">
-				
+
 				<!-- 导航栏 -->
 				<div class="col-md-1">
 					<h1 id="logo" style="font-family: Aideep;">Aio</h1>
@@ -29,10 +31,10 @@
 								<a class="nav-link" href="supermarket.html">果市</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="userManager.html">用户</a>
+								<a class="nav-link" href="userManager.html" style="color: white;">用户</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="wait.html">代发货</a>
+								<a class="nav-link" href="wait.html">待发货</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="state.html">已签收</a>
@@ -49,12 +51,58 @@
 						</ul>
 					</nav>
 				</div>
-				
+
 				<!--内容-->
 				<div class="col-md-10">
-					
+					<p class="fontH1">用户信息检索 授权</p>
+					<span>根据手机号码查找用户：</span>
+					<input type="text" id="userIphoneNumberIn" />
+					<table class="userMessageTable">
+						<tr>
+							<td>
+								<p>手机号码：</p>
+							</td>
+							<td>
+								<p id="userIphoneNumberOut">18078454545</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>用户名：</p>
+							</td>
+							<td>
+								<p id="userName">阿布同学</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>果币余额：</p>
+							</td>
+							<td>
+								<p id="userMoneyOver">30</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>操作权限：</p>
+							</td>
+							<td>
+								<select>
+									<option value="1">普通用户</option>
+									<option value="2">一级管理员</option>
+									<option value="3">二级管理员</option>
+									<option value="4">超级管理员</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center;">
+								<input class="Btn" type="button" value="提交" />
+							</td>
+						</tr>
+					</table>
 				</div>
-				
+
 			</div>
 		</div>
 

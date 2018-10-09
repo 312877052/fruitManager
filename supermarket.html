@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>水果超市</title>
@@ -7,12 +8,13 @@
 		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<link rel="stylesheet" href="css/font.css" />
+		<link rel="stylesheet" href="css/home.css" />
 	</head>
 
 	<body>
 		<div>
 			<div class="row visible-on">
-				
+
 				<!-- 导航栏 -->
 				<div class="col-md-1">
 					<h1 id="logo" style="font-family: Aideep;">Aio</h1>
@@ -26,13 +28,13 @@
 								<a class="nav-link" href="tree.html">果苗</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="supermarket.html">果市</a>
+								<a class="nav-link" href="supermarket.html" style="color: white;">果市</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="userManager.html">用户</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="wait.html">代发货</a>
+								<a class="nav-link" href="wait.html">待发货</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="state.html">已签收</a>
@@ -49,14 +51,145 @@
 						</ul>
 					</nav>
 				</div>
-				
+
 				<!--内容-->
-				<div class="col-md-10">
-					
+				<div class="col-md-7">
+					<div>
+						<p class="fontH1">水果</p>
+						<table class="fruitSort">
+							<tr>
+								<td>
+									<img src="img/哈密瓜.png" />
+								</td>
+								<td>
+									<img src="img/杨桃.png" />
+								</td>
+								<td>
+									<img src="img/桃子.png" />
+								</td>
+								<td>
+									<img src="img/杨桃.png" />
+								</td>
+								<td>
+									<img src="img/桃子.png" />
+								</td>
+								<td>
+									<img src="img/桃子.png" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="img/桃子.png" />
+								</td>
+								<td>
+									<img src="img/杨桃.png" />
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div>
+						<p class="fontH1">果酱</p>
+						<table class="fruitSort">
+							<tr>
+								<td>
+									<img src="img/哈密瓜.png" />
+								</td>
+								<td>
+									<img src="img/杨桃.png" />
+								</td>
+								<td>
+									<img src="img/桃子.png" />
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div>
+						<p class="fontH1">工具</p>
+						<table class="fruitSort">
+							<tr>
+								<td>
+									<img src="img/哈密瓜.png" />
+								</td>
+								<td>
+									<img src="img/杨桃.png" />
+								</td>
+								<td>
+									<img src="img/桃子.png" />
+								</td>
+							</tr>
+						</table>
+					</div>
 				</div>
-				
+
+				<div class="col-md-4">
+					<p class="fontH1">发布新的果苗信息</p>
+					<div>
+						<table id="addOneFruitTable">
+							<tr>
+								<td>
+									<p class="newFruitOneType">分类：</p>
+								</td>
+								<td>
+									<select>
+										<option value="1">水果</option>
+										<option value="2">果酱</option>
+										<option value="3">工具</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="newFruitOneFruit">水果：</p>
+								</td>
+								<td>
+									<select>
+										<option value="1">香蕉</option>
+										<option value="2">番茄</option>
+										<option value="3">西红柿</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="newFruitOnePrice">单价：</p>
+								</td>
+								<td>
+									<input type="text" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="newFruitOneBase">培育基地：</p>
+								</td>
+								<td>
+									<input type="text" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="newFruitOneNotice">认购须知：</p>
+								</td>
+								<td>
+									<textarea></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="newFruitOther">其他：</p>
+								</td>
+								<td>
+									<textarea></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align: center;">
+									<input class="Btn" type="button" value="发布" />
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
 			</div>
-		</div>
 
 	</body>
 
