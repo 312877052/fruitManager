@@ -76,3 +76,13 @@
 .userMessageTable td{
 	padding: 5px;
 }
+
+.waitOrderTable td{
+	padding: 2px 5px;
+	}
+
+.waitOrderTable{
+	border: 1px solid darkgray;
+	width: 98%;
+	margin-top: 10px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>待发货</title>
@@ -7,12 +8,13 @@
 		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<link rel="stylesheet" href="css/font.css" />
+		<link rel="stylesheet" href="css/home.css" />
 	</head>
 
 	<body>
 		<div>
 			<div class="row visible-on">
-				
+
 				<!-- 导航栏 -->
 				<div class="col-md-1">
 					<h1 id="logo" style="font-family: Aideep;">Aio</h1>
@@ -49,14 +51,97 @@
 						</ul>
 					</nav>
 				</div>
-				
+
 				<!--内容-->
 				<div class="col-md-11">
-					
+					<div class="row visible-on">
+						<div style="margin-top: 10px;" class="col-md-6">
+							<span>手机号码：</span>
+							<input type="number" id="waitoutOrderIphone" />
+							<input type="button" value="查询" class="Btn" />
+						</div>
+						<div style="margin-top: 10px;" class="col-md-6">
+							<span>日期：</span>
+							<input type="date" id="waitoutOrderTime" />
+							<input type="button" value="查询" class="Btn" />
+						</div>
+					</div>
+					<p class="fontH1">今天</p>
+					<hr />
+					<table class="waitOrderTable">
+						<tr>
+							<td><span>姓名：</span><span id="waitUserName">DEMO</span></td>
+							<td><span id="waitUserIphone">18078454542</span></td>
+							<td><span>收货地址：</span><span id="waitUserAddress">新疆维吾尔治区直辖县级行政区划阿拉尔直辖县级行政区划阿吾尔治区直辖</span></td>
+							<td><span>产重：</span></td>
+							<td><input id="waitOutWeight" type="text" /></td>
+							<td rowspan="3"><input type="button" value="发货" class="Btn" /></td>
+						</tr>
+						<tr>
+							<td><span>价格：</span><span id="waitFruitPrice">600</span></td>
+							<td><span id="waitFruitPrice">芒果二期A区</span></td>
+							<td><span id="waitFruitNumber">10株</span></td>
+							<td><span>物流编号：</span></td>
+							<td><input id="waitPostNumber" type="text" /> </td>
+						</tr>
+						<tr>
+							<td><span>时间：</span></td>
+							<td><span id="waitMessageTime">2018-10-20 14:30:31</span></td>
+							<td><span id="waitMessageNumber">订单编号：20180126211002012365542133652</span></td>
+							<td><span>备注：</span></td>
+							<td><input id="waitPostOther" type="text" /></td>
+						</tr>
+					</table>
+					<table class="waitOrderTable">
+						<tr>
+							<td><span>姓名：</span><span id="waitUserName">DEMO</span></td>
+							<td><span id="waitUserIphone">18078454542</span></td>
+							<td><span>收货地址：</span><span id="waitUserAddress">新疆维吾尔治区直辖县级行政区划阿拉尔直辖县级行政区划阿吾尔治区直辖</span></td>
+							<td><span>产重：</span></td>
+							<td><input id="waitOutWeight" type="text" /></td>
+							<td rowspan="3"><input type="button" value="发货" class="Btn" /></td>
+						</tr>
+						<tr>
+							<td><span>价格：</span><span id="waitFruitPrice">600</span></td>
+							<td><span id="waitFruitPrice">芒果二期A区</span></td>
+							<td><span id="waitFruitNumber">10株</span></td>
+							<td><span>物流编号：</span></td>
+							<td><input id="waitPostNumber" type="text" /> </td>
+						</tr>
+						<tr>
+							<td><span>时间：</span></td>
+							<td><span id="waitMessageTime">2018-10-20 14:30:31</span></td>
+							<td><span id="waitMessageNumber">订单编号：20180126211002012365542133652</span></td>
+							<td><span>备注：</span></td>
+							<td><input id="waitPostOther" type="text" /></td>
+						</tr>
+					</table>
+					<table class="waitOrderTable">
+						<tr>
+							<td><span>姓名：</span><span id="waitUserName">DEMO</span></td>
+							<td><span id="waitUserIphone">18078454542</span></td>
+							<td><span>收货地址：</span><span id="waitUserAddress">新疆维吾尔治区直辖县级行政区划阿拉尔直辖县级行政区划阿吾尔治区直辖</span></td>
+							<td><span>产重：</span></td>
+							<td><input id="waitOutWeight" type="text" /></td>
+							<td rowspan="3"><input type="button" value="发货" class="Btn" /></td>
+						</tr>
+						<tr>
+							<td><span>价格：</span><span id="waitFruitPrice">600</span></td>
+							<td><span id="waitFruitPrice">芒果二期A区</span></td>
+							<td><span id="waitFruitNumber">10株</span></td>
+							<td><span>物流编号：</span></td>
+							<td><input id="waitPostNumber" type="text" /> </td>
+						</tr>
+						<tr>
+							<td><span>时间：</span></td>
+							<td><span id="waitMessageTime">2018-10-20 14:30:31</span></td>
+							<td><span id="waitMessageNumber">订单编号：20180126211002012365542133652</span></td>
+							<td><span>备注：</span></td>
+							<td><input id="waitPostOther" type="text" /></td>
+						</tr>
+					</table>
 				</div>
-				
-				
-				
+
 			</div>
 		</div>
 
