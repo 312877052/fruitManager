@@ -7,6 +7,7 @@
 		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<link rel="stylesheet" href="css/font.css" />
+		<link rel="stylesheet" href="css/home.css" />
 	</head>
 
 	<body>
@@ -35,7 +36,7 @@
 								<a class="nav-link" href="wait.html">待发货</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="state.html">已签收</a>
+								<a class="nav-link" href="state.html" style="color: white;">状态</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="back.html">退货</a>
@@ -51,8 +52,89 @@
 				</div>
 				
 				<!--内容-->
-				<div class="col-md-10">
-					
+				<div class="col-md-11">
+					<div class="row visible-on">
+						<div style="margin-top: 10px;" class="col-md-8">
+							<span>手机号码：</span>
+							<input type="number" id="waitoutOrderIphone" />
+							<input type="button" value="查询" class="Btn" />
+						</div>
+						<div style="margin-top: 10px;" class="col-md-4">
+							<input type="button" value="导出为Excel" class="Btn" style="width: 120px;" />
+						</div>
+					</div>
+					<table class="waitOrderTable">
+						<tr>
+							<td><span>姓名：</span><span id="waitUserName">DEMO</span></td>
+							<td><span id="waitUserIphone">18078454542</span></td>
+							<td><span>收货地址：</span><span id="waitUserAddress">新疆维吾尔治区直辖县级行政区划阿拉尔直辖县级行政区划阿吾尔治区直辖</span></td>
+							<td><span>产重：</span></td>
+							<td><span>60kg</span></td>
+							<td rowspan="3"><span>邮寄中</span></td>
+						</tr>
+						<tr>
+							<td><span>价格：</span><span id="waitFruitPrice">600</span></td>
+							<td><span id="waitFruitPrice">芒果二期A区</span></td>
+							<td><span id="waitFruitNumber">10株</span></td>
+							<td><span>物流编号：</span></td>
+							<td><span>326654562323152</span></td>
+						</tr>
+						<tr>
+							<td><span>时间：</span></td>
+							<td><span id="waitMessageTime">2018-10-20 14:30:31</span></td>
+							<td><span id="waitMessageNumber">订单编号：20180126211002012365542133652</span></td>
+							<td><span>备注：</span></td>
+							<td><span>无</span></td>
+						</tr>
+					</table>
+					<table class="waitOrderTable">
+						<tr>
+							<td><span>姓名：</span><span id="waitUserName">DEMO</span></td>
+							<td><span id="waitUserIphone">18078454542</span></td>
+							<td><span>收货地址：</span><span id="waitUserAddress">新疆维吾尔治区直辖县级行政区划阿拉尔直辖县级行政区划阿吾尔治区直辖</span></td>
+							<td><span>产重：</span></td>
+							<td><span>60kg</span></td>
+							<td rowspan="3"><span>已签收</span></td>
+						</tr>
+						<tr>
+							<td><span>价格：</span><span id="waitFruitPrice">600</span></td>
+							<td><span id="waitFruitPrice">芒果二期A区</span></td>
+							<td><span id="waitFruitNumber">10株</span></td>
+							<td><span>物流编号：</span></td>
+							<td><span>326654562323152</span></td>
+						</tr>
+						<tr>
+							<td><span>时间：</span></td>
+							<td><span id="waitMessageTime">2018-10-20 14:30:31</span></td>
+							<td><span id="waitMessageNumber">订单编号：20180126211002012365542133652</span></td>
+							<td><span>备注：</span></td>
+							<td><span>无</span></td>
+						</tr>
+					</table>
+					<table class="waitOrderTable">
+						<tr>
+							<td><span>姓名：</span><span id="waitUserName">DEMO</span></td>
+							<td><span id="waitUserIphone">18078454542</span></td>
+							<td><span>收货地址：</span><span id="waitUserAddress">新疆维吾尔治区直辖县级行政区划阿拉尔直辖县级行政区划阿吾尔治区直辖</span></td>
+							<td><span>产重：</span></td>
+							<td><span>60kg</span></td>
+							<td rowspan="3"><span>已签收</span></td>
+						</tr>
+						<tr>
+							<td><span>价格：</span><span id="waitFruitPrice">600</span></td>
+							<td><span id="waitFruitPrice">芒果二期A区</span></td>
+							<td><span id="waitFruitNumber">10株</span></td>
+							<td><span>物流编号：</span></td>
+							<td><span>326654562323152</span></td>
+						</tr>
+						<tr>
+							<td><span>时间：</span></td>
+							<td><span id="waitMessageTime">2018-10-20 14:30:31</span></td>
+							<td><span id="waitMessageNumber">订单编号：20180126211002012365542133652</span></td>
+							<td><span>备注：</span></td>
+							<td><span>无</span></td>
+						</tr>
+					</table>
 				</div>
 				
 			</div>
